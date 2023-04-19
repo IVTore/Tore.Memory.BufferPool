@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>Tore.Memory.BufferPool</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>İhsan Volkan Töre</Authors>
+    <Copyright>2023 İhsan Volkan Töre</Copyright>
+    <PackageProjectUrl>https://github.com/IVTore/Tore.Memory.BufferPool</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/IVTore/Tore.Memory.BufferPool</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <Title>A simple thread safe ByteArray buffer object pool class library.</Title>
+    <Description>A simple thread safe ByteArray buffer object pool class</Description>
+    <PackageTags>Tore;ByteArray;ObjectPool;buffer;pool;BufferPool;memory</PackageTags>
+    <PackageReleaseNotes>First release.</PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>
