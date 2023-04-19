@@ -3,7 +3,7 @@ A thread safe ByteArray buffer object pool class library for C# By Ä°. Volkan TÃ
 
 Language: C#.
 
-Nuget package: [Tore.Core](https://www.nuget.org/packages/Tore.Memory.BufferPool/)
+Nuget package: [Tore.Memory.BufferPool](https://www.nuget.org/packages/Tore.Memory.BufferPool/)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
