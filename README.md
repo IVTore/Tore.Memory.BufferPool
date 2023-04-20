@@ -17,9 +17,13 @@ Buffer pool object is a stack of ByteArray buffers that can be quickly acquired 
 
 Behaviours:
 
-    -   When a buffer is requested from the pool, if there are buffers in the pool, one is returned. 
+    -   GetBuffer().
+        A buffer is requested from the pool.
+        If there are buffers in the pool, one is returned. 
         Otherwise a new buffer is created and returned.
-    -   When a buffer is returned to the pool, primarily it is checked for null and size,
+    -   PutBuffer().
+        A buffer is returned to the pool.
+        It is checked for null and if the size is ok,
         if it fits and the pool is not full, the buffer is cleared and added to the pool.
         Otherwise the buffer is discarded.
     -   The pool is thread safe.
@@ -53,7 +57,7 @@ public class ExamplePoolUserClass {
         byte[] buffer = _pool.GetBuffer();          // Fetch a buffer from the pool.
                                                     // Do something with the buffer.
 
-        _pool.ReturnBuffer(buffer);                 // Return the buffer to the pool.
+        _pool.PutBuffer(buffer);                 // Return the buffer to the pool.
     }
 }
 ```
